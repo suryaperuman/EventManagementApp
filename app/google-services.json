@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088392660306",
+    "project_id": "eastcyclingclub-48e54",
+    "storage_bucket": "eastcyclingclub-48e54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088392660306:android:794120cf2d0953bf8a668b",
+        "android_client_info": {
+          "package_name": "com.example.eastcyclingclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDoiBOH5KJyWRFJk2XPoHx7BI5nk50mwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

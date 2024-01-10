@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EastCyclingClub"
+        tools:targetApi="31">
+        <activity
+            android:name=".ParticipantListJoinedEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityJoinedEvents"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityViewClub"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityViewClubRatings"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityAddRating"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityViewClubEvents"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityCompleteProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityEvents"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityUpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityCompleteProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityAssociateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityEvents"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityEvents"
+            android:exported="false" />
+        <activity
+            android:name=".AdminListUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityCreateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityUsers"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantActivityEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralActivitySignup"
+            android:exported="false" />
+        <activity
+            android:name=".ClubActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityEventType"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivityUpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralActivityLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

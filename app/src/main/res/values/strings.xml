@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">EastCyclingClub</string>
+    <string name="menu">Select an Option</string>
+
+    <string-array name="RatingOptions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="AccountOptions">
+        <item>Select Account Type</item>
+        <item>Cycling Club Owner</item>
+        <item>Participant</item>
+    </string-array>
+
+    <string-array name="SearchOptions">
+        <item>Search by:</item>
+        <item>Search for events by: Event Name</item>
+        <item>Search for events by: Event Type</item>
+        <item>Search for clubs</item>
+    </string-array>
+
+    <string-array name="EventOptions">
+        <item>Select Event Type</item>
+        <item>Time Trial</item>
+        <item>Hill Climb</item>
+        <item>Road Stage Race</item>
+        <item>Road Race</item>
+        <item>Group Rides</item>
+    </string-array>
+
+    <string-array name="ExperienceLevelOptions">
+        <item>Select Your Experience Level</item>
+        <item>Newbie</item>
+        <item>Beginner</item>
+        <item>Average</item>
+        <item>Experienced</item>
+        <item>Pro</item>
+        <item>Cycling is Everything To Me</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
